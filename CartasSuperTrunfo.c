@@ -8,7 +8,7 @@ int main(){
     char cidade1[20] = "Curitiba";
     int populacao1 = 1773718;
     float area1 = 435.277;
-    float pib1 = 98;
+    float pib1 = 98.00;
     int pontosturisticos1 = 25;
 
      printf("Carta: %d\n", carta1);
@@ -17,7 +17,7 @@ int main(){
      printf("Nome da Cidade: %s\n", cidade1);
      printf("População: %d\n", populacao1);
      printf("Área: %.3fkm²\n", area1);
-     printf("PIB: %.1fbilhoes\n", pib1);
+     printf("PIB: %.2fbilhoes de reais\n", pib1);
      printf("Pontos Turísticos: %d\n", pontosturisticos1);
      
      int carta2 = 2;
@@ -35,7 +35,7 @@ int main(){
     printf("Nome da Cidade: %s\n", cidade2);
     printf("População: %d\n", populacao2);
     printf("Área: %.3fkm²\n", area2);
-    printf("PIB: %.1fbilhoes\n", pib2);
+    printf("PIB: %.2fbilhoes de reais\n", pib2);
     printf("Pontos Turísticos: %d\n", pontosturisticos2);
 
     return 0;
